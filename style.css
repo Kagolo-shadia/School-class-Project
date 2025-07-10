@@ -38,6 +38,7 @@ header{
   padding: 150px;
   background-color: grey ;
   color:#f9f9f9
+ 
 }
 
 nav ul {
@@ -93,34 +94,63 @@ img {
   max-width: 100%;
   height: auto;
   width: 170px;
+  border-radius: 5px;
 }
 
 .joinus {
   background-color: rgb(254, 244, 246) ;
   padding: 20px;
   text-align: center;
+  height: 500px;
 }
 
 .joincards {
   padding: 20px;
   text-align: center;
   display: flex;
-  justify-content: space-between;
   gap: 20px;
+  justify-content: center;
+  
 }
-
+ .card{
+  background-color: white;
+  padding-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 200px;
+  width: 250px;
+ 
+ }
 .programs{
   background-color: lavender;
   padding: 20px;
+  display: block;
   text-align: center;
+  height: 500px;
+  padding-top: 80px;
+
 }
 
 .programcards {
-  padding: 20px;
   text-align: center;
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px;
+}
+
+.program-card {
+  background-color: white;
+  padding-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 200px;
+  width: 250px;
+}
+
+h3 {
+  color: black;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -129,3 +159,5 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+
